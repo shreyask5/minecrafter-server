@@ -8,4 +8,4 @@
 # Uncomment the next line to set it.
 # -Xmx4G
 
--Xmx56G -Xms40G
+-Xmx56G -Xms4G
