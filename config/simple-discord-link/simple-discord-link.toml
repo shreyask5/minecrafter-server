@@ -11,7 +11,7 @@
 #Config specific to the discord bot
 [botConfig]
 	#The token of the Discord Bot to use. This will be encrypted on first load. See https://sdlink.fdd-docs.com/initial-setup/ to find this
-	botToken = ""
+	botToken = "NzQwNDA1NjAxMDI4NTM4NDUx.GwZg1a.GoCIfXGq_M9XzXAw05oxXg_6kLWsgtIKOCLO1s"
 	#Print the bot invite link to the console on startup
 	printInviteLink = true
 	#Use silent replies when Slash Commands are used
@@ -33,7 +33,7 @@
 		#Should the bot update the topic of your chat channel automatically every 6 Minutes
 		doTopicUpdates = true
 		#How often should the bot update the channel topic (IN MINUTES)? CANNOT BE LOWER THAN 6 MINUTES!
-		updateInterval = 6
+		updateInterval = 10
 		#A topic for the Chat Relay channel. You can use %player%, %maxplayers%, %uptime% or just leave it empty.
 		channelTopic = "Playing Minecraft with %players%/%maxplayers% people | Uptime: %uptime%"
 
@@ -49,12 +49,12 @@
 	#A DIRECT link to an image to use as the avatar for server messages. Also used for embeds
 	serverAvatar = ""
 	#The name to display for Server messages when using Webhooks
-	serverName = "Minecraft Server"
+	serverName = "Magnolia"
 
 	#Config relating to the discord channels to use with the mod
 	[channelsAndWebhooks.channels]
 		#REQUIRED! The ID of the channel to post in and relay messages from. This is still needed, even in webhook mode
-		chatChannelID = "0"
+		chatChannelID = "1071437311872602202"
 		#If this ID is set, event messages will be posted in this channel instead of the chat channel
 		eventsChannelID = "0"
 		#If this ID is set, console messages sent after the bot started will be relayed here
@@ -78,7 +78,7 @@
 	#Use linked account names in Discord/Minecraft messages, instead of the default ones
 	useLinkedNames = true
 	#Show the discord name, username and role of the user that sent a message in Minecraft when the message is hovered
-	showDiscordInfo = false
+	showDiscordInfo = true
 	#Convert Discord to MC, and MC to Discord Formatting
 	formatting = true
 	#Should console messages be sent to the Console Channel
