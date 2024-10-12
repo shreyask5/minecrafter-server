@@ -20,8 +20,10 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:badlands": "2024-10-11 13:19:37 +0000",
+      "minecraft:river": "2024-10-12 10:24:08 +0000",
       "minecraft:stony_shore": "2024-10-11 13:19:08 +0000",
-      "minecraft:desert": "2024-10-11 13:19:31 +0000"
+      "minecraft:desert": "2024-10-11 13:19:31 +0000",
+      "minecraft:warm_ocean": "2024-10-12 10:10:11 +0000"
     },
     "done": false
   },
@@ -40,6 +42,24 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_by_something": "2024-10-11 13:21:14 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/emu": {
+    "criteria": {
+      "killed_by": "2024-10-12 10:44:59 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rattlesnake": {
+    "criteria": {
+      "killed_by": "2024-10-12 10:44:57 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/tarantula_hawk": {
+    "criteria": {
+      "killed_by": "2024-10-12 10:45:01 +0000"
     },
     "done": true
   },

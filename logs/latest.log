@@ -1,11 +1,730 @@
-[12Oct2024 09:58:52.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[12Oct2024 09:58:52.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[12Oct2024 09:58:52.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[12Oct2024 09:58:52.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[12Oct2024 09:58:52.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12Oct2024 09:58:54.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[12Oct2024 09:58:54.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[12Oct2024 09:58:54.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12Oct2024 09:58:54.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12Oct2024 09:58:54.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12Oct2024 09:58:54.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12Oct2024 10:02:35.389] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --nogui]
+[12Oct2024 10:02:35.393] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Ubuntu; OS Linux arch amd64 version 5.15.0-1067-gcp
+[12Oct2024 10:02:35.881] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Oct2024 10:02:35.932] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/shreyasksh5/minecraft-1.20.1/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[12Oct2024 10:02:36.232] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/shreyasksh5/minecraft-1.20.1/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[12Oct2024 10:02:36.233] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/shreyasksh5/minecraft-1.20.1/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[12Oct2024 10:02:36.234] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/shreyasksh5/minecraft-1.20.1/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[12Oct2024 10:02:36.235] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/shreyasksh5/minecraft-1.20.1/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[12Oct2024 10:02:36.423] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[12Oct2024 10:02:36.425] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[12Oct2024 10:02:38.185] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[12Oct2024 10:02:38.283] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[12Oct2024 10:02:38.285] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [--nogui]
+[12Oct2024 10:02:38.333] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Oct2024 10:02:38.335] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Oct2024 10:02:39.449] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[12Oct2024 10:02:39.460] [main/WARN] [mixin/]: Error loading class: net/fabricmc/fabric/api/entity/event/v1/FabricElytraItem (java.lang.ClassNotFoundException: net.fabricmc.fabric.api.entity.event.v1.FabricElytraItem)
+[12Oct2024 10:02:39.470] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[12Oct2024 10:02:39.471] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[12Oct2024 10:02:39.471] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[12Oct2024 10:02:39.473] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[12Oct2024 10:02:39.473] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[12Oct2024 10:02:39.473] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[12Oct2024 10:02:39.475] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[12Oct2024 10:02:39.475] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[12Oct2024 10:02:39.595] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12Oct2024 10:02:45.438] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[12Oct2024 10:02:45.439] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[12Oct2024 10:02:45.750] [modloading-worker-0/INFO] [CraterLib/]: Registered simple-discord-link.toml successfully!
+[12Oct2024 10:02:45.883] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[12Oct2024 10:02:46.106] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
+[12Oct2024 10:02:46.106] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
+[12Oct2024 10:02:46.111] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
+[12Oct2024 10:02:46.111] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
+[12Oct2024 10:02:46.113] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
+[12Oct2024 10:02:46.124] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
+[12Oct2024 10:02:46.138] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
+[12Oct2024 10:02:46.138] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
+[12Oct2024 10:02:46.138] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
+[12Oct2024 10:02:46.139] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
+[12Oct2024 10:02:46.141] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
+[12Oct2024 10:02:46.142] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
+[12Oct2024 10:02:46.142] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
+[12Oct2024 10:02:46.149] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
+[12Oct2024 10:02:46.150] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
+[12Oct2024 10:02:46.150] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
+[12Oct2024 10:02:46.157] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
+[12Oct2024 10:02:46.159] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
+[12Oct2024 10:02:46.161] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
+[12Oct2024 10:02:46.161] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
+[12Oct2024 10:02:46.163] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
+[12Oct2024 10:02:46.163] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
+[12Oct2024 10:02:46.164] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
+[12Oct2024 10:02:46.164] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
+[12Oct2024 10:02:46.164] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
+[12Oct2024 10:02:46.167] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
+[12Oct2024 10:02:46.168] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
+[12Oct2024 10:02:46.168] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
+[12Oct2024 10:02:46.171] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
+[12Oct2024 10:02:46.171] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
+[12Oct2024 10:02:46.172] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
+[12Oct2024 10:02:46.172] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
+[12Oct2024 10:02:46.185] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
+[12Oct2024 10:02:46.186] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.187] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
+[12Oct2024 10:02:46.188] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.189] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
+[12Oct2024 10:02:46.190] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
+[12Oct2024 10:02:46.191] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
+[12Oct2024 10:02:46.191] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
+[12Oct2024 10:02:46.192] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
+[12Oct2024 10:02:46.192] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
+[12Oct2024 10:02:46.193] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
+[12Oct2024 10:02:46.194] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
+[12Oct2024 10:02:46.194] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
+[12Oct2024 10:02:46.194] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
+[12Oct2024 10:02:46.194] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
+[12Oct2024 10:02:46.195] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
+[12Oct2024 10:02:46.196] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
+[12Oct2024 10:02:46.197] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
+[12Oct2024 10:02:46.198] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
+[12Oct2024 10:02:46.198] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
+[12Oct2024 10:02:46.199] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.199] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
+[12Oct2024 10:02:46.200] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
+[12Oct2024 10:02:46.201] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
+[12Oct2024 10:02:46.203] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.203] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
+[12Oct2024 10:02:46.210] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
+[12Oct2024 10:02:46.211] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
+[12Oct2024 10:02:46.211] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
+[12Oct2024 10:02:46.212] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
+[12Oct2024 10:02:46.214] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.214] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
+[12Oct2024 10:02:46.215] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
+[12Oct2024 10:02:46.229] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
+[12Oct2024 10:02:46.230] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
+[12Oct2024 10:02:46.233] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
+[12Oct2024 10:02:46.233] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
+[12Oct2024 10:02:46.235] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
+[12Oct2024 10:02:46.236] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
+[12Oct2024 10:02:46.238] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
+[12Oct2024 10:02:46.239] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
+[12Oct2024 10:02:46.239] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
+[12Oct2024 10:02:46.240] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
+[12Oct2024 10:02:46.240] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
+[12Oct2024 10:02:46.240] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
+[12Oct2024 10:02:46.241] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
+[12Oct2024 10:02:46.241] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
+[12Oct2024 10:02:46.243] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
+[12Oct2024 10:02:46.243] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
+[12Oct2024 10:02:46.250] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
+[12Oct2024 10:02:46.251] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
+[12Oct2024 10:02:46.251] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
+[12Oct2024 10:02:46.252] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
+[12Oct2024 10:02:46.253] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
+[12Oct2024 10:02:46.253] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
+[12Oct2024 10:02:46.253] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
+[12Oct2024 10:02:46.256] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.256] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
+[12Oct2024 10:02:46.257] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
+[12Oct2024 10:02:46.263] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.264] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
+[12Oct2024 10:02:46.264] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
+[12Oct2024 10:02:46.265] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
+[12Oct2024 10:02:46.265] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
+[12Oct2024 10:02:46.266] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
+[12Oct2024 10:02:46.267] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
+[12Oct2024 10:02:46.267] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
+[12Oct2024 10:02:46.268] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
+[12Oct2024 10:02:46.268] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
+[12Oct2024 10:02:46.269] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.269] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Villagers...
+[12Oct2024 10:02:46.269] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
+[12Oct2024 10:02:46.269] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
+[12Oct2024 10:02:46.270] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
+[12Oct2024 10:02:46.270] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
+[12Oct2024 10:02:46.273] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
+[12Oct2024 10:02:46.273] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
+[12Oct2024 10:02:46.274] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
+[12Oct2024 10:02:46.274] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
+[12Oct2024 10:02:46.274] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
+[12Oct2024 10:02:46.275] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.275] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
+[12Oct2024 10:02:46.276] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
+[12Oct2024 10:02:46.279] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
+[12Oct2024 10:02:46.280] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
+[12Oct2024 10:02:46.281] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
+[12Oct2024 10:02:46.283] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
+[12Oct2024 10:02:46.284] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
+[12Oct2024 10:02:46.286] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
+[12Oct2024 10:02:46.287] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
+[12Oct2024 10:02:46.288] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
+[12Oct2024 10:02:46.288] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
+[12Oct2024 10:02:46.289] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
+[12Oct2024 10:02:46.289] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
+[12Oct2024 10:02:46.290] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
+[12Oct2024 10:02:46.291] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
+[12Oct2024 10:02:46.292] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
+[12Oct2024 10:02:46.292] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
+[12Oct2024 10:02:46.293] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
+[12Oct2024 10:02:46.295] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
+[12Oct2024 10:02:46.298] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
+[12Oct2024 10:02:46.306] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
+[12Oct2024 10:02:46.306] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.306] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
+[12Oct2024 10:02:46.307] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
+[12Oct2024 10:02:46.307] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
+[12Oct2024 10:02:46.309] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
+[12Oct2024 10:02:46.312] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.312] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
+[12Oct2024 10:02:46.312] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
+[12Oct2024 10:02:46.314] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
+[12Oct2024 10:02:46.314] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
+[12Oct2024 10:02:46.315] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
+[12Oct2024 10:02:46.315] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
+[12Oct2024 10:02:46.315] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
+[12Oct2024 10:02:46.316] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
+[12Oct2024 10:02:46.318] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
+[12Oct2024 10:02:46.319] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.319] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
+[12Oct2024 10:02:46.319] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.319] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
+[12Oct2024 10:02:46.320] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
+[12Oct2024 10:02:46.321] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
+[12Oct2024 10:02:46.322] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
+[12Oct2024 10:02:46.324] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
+[12Oct2024 10:02:46.325] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.325] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
+[12Oct2024 10:02:46.326] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
+[12Oct2024 10:02:46.327] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
+[12Oct2024 10:02:46.327] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
+[12Oct2024 10:02:46.328] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
+[12Oct2024 10:02:46.328] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
+[12Oct2024 10:02:46.329] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
+[12Oct2024 10:02:46.329] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
+[12Oct2024 10:02:46.341] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
+[12Oct2024 10:02:46.348] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
+[12Oct2024 10:02:46.348] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
+[12Oct2024 10:02:46.351] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
+[12Oct2024 10:02:46.351] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
+[12Oct2024 10:02:46.363] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
+[12Oct2024 10:02:46.364] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
+[12Oct2024 10:02:46.367] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
+[12Oct2024 10:02:46.367] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
+[12Oct2024 10:02:46.369] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
+[12Oct2024 10:02:46.370] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
+[12Oct2024 10:02:46.371] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[12Oct2024 10:02:46.371] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
+[12Oct2024 10:02:46.372] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
+[12Oct2024 10:02:46.372] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
+[12Oct2024 10:02:46.431] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/shreyasksh5/minecraft-1.20.1/config/quark-common.toml is not correct. Correcting
+[12Oct2024 10:02:46.455] [modloading-worker-0/ERROR] [Simple Discord Link/]: Missing bot token. Mod will be disabled. Please double check this in config/simple-discord-link/simple-discord-link.toml
+[12Oct2024 10:02:51.342] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[12Oct2024 10:02:51.589] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[12Oct2024 10:02:51.822] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[12Oct2024 10:02:51.823] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[12Oct2024 10:02:51.823] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[12Oct2024 10:02:51.824] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[12Oct2024 10:02:51.893] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[12Oct2024 10:02:51.915] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[12Oct2024 10:02:51.920] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[12Oct2024 10:02:52.528] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[12Oct2024 10:02:52.528] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12Oct2024 10:02:53.359] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[12Oct2024 10:02:56.785] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12Oct2024 10:02:56.852] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+betterchunkloading (version 1.20.1-4.5 -> MISSING)
+connectivity (version 1.20.1-5.6 -> MISSING)
+cupboard (version 1.20.1-2.7 -> MISSING)
+limitedchunks (version 1.8 -> MISSING)
+mixinextras (version 0.3.2 -> 0.4.1)
+smoothchunk (version 1.20.1-3.6 -> MISSING)
+Things may not work well.
+[12Oct2024 10:03:00.841] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/shreyasksh5/minecraft-1.20.1/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23169!/assets/.mcassetsroot' uses unexpected schema
+[12Oct2024 10:03:00.842] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/shreyasksh5/minecraft-1.20.1/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23169!/data/.mcassetsroot' uses unexpected schema
+[12Oct2024 10:03:00.899] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:limitedchunks
+[12Oct2024 10:03:00.899] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:connectivity
+[12Oct2024 10:03:00.899] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:smoothchunk
+[12Oct2024 10:03:00.899] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:betterchunkloading
+[12Oct2024 10:03:00.899] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:cupboard
+[12Oct2024 10:03:02.187] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[12Oct2024 10:03:02.803] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.806] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.806] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.820] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.821] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.821] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.821] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.824] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.824] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.825] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.825] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.826] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.826] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.826] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.829] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.829] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.831] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.832] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.832] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.832] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.834] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.836] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.837] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.837] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.838] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.839] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.840] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.841] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.842] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.843] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.844] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.844] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.845] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.845] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.846] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.846] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.846] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.848] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.848] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.850] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.850] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.851] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.851] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.852] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.852] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.852] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.853] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.853] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.854] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.854] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.855] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.855] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.857] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.858] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.858] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.858] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.859] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.860] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.860] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.861] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.861] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.863] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.863] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.864] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.864] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.864] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.864] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.865] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.866] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.866] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.866] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.867] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.867] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.867] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.868] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.868] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.870] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.870] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.871] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.871] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.872] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.872] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.873] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.873] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.873] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.873] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.874] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.874] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.874] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.874] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.874] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.875] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.875] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.876] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.876] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.876] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.877] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.877] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.878] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.879] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.879] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.880] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.881] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.882] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.883] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.884] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.884] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.884] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.886] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.886] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.887] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.888] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.889] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.890] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.890] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.891] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.891] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.893] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.893] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.894] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.894] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.894] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.895] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.895] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.895] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.895] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.896] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.896] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.897] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.897] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.898] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[12Oct2024 10:03:02.899] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.899] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.900] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.902] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.902] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.902] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[12Oct2024 10:03:02.903] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.903] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.905] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[12Oct2024 10:03:02.905] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[12Oct2024 10:03:02.906] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.906] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[12Oct2024 10:03:02.907] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[12Oct2024 10:03:02.912] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[12Oct2024 10:03:02.998] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 1220 recipe advancements
+[12Oct2024 10:03:03.006] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 271 advancements
+[12Oct2024 10:03:03.015] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[12Oct2024 10:03:03.020] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[12Oct2024 10:03:03.027] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[12Oct2024 10:03:03.027] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[12Oct2024 10:03:03.027] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[12Oct2024 10:03:03.027] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[12Oct2024 10:03:03.028] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[12Oct2024 10:03:03.028] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[12Oct2024 10:03:03.028] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[12Oct2024 10:03:03.028] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[12Oct2024 10:03:03.028] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[12Oct2024 10:03:08.009] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[12Oct2024 10:03:08.010] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Oct2024 10:03:08.010] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[12Oct2024 10:03:08.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Oct2024 10:03:08.091] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12Oct2024 10:03:08.114] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[12Oct2024 10:03:08.238] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12Oct2024 10:03:08.238] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[12Oct2024 10:03:08.239] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12Oct2024 10:03:08.239] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[12Oct2024 10:03:08.366] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[12Oct2024 10:03:10.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Oct2024 10:03:12.985] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -4, 2]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.987] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 2]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.988] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 2]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.988] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 2]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.989] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 2]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.989] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 2]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.991] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -4, 3]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.991] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 3]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.992] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 3]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.993] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 3]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.993] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 3]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.994] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 3]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.996] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 4]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.996] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 4]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.997] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 4]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.997] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 4]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:12.998] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 4]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.000] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 5]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.000] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 5]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.001] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 5]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.001] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 5]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.002] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 5]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.003] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 6]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.003] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 6]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.004] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 6]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.004] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 6]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.005] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 6]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.006] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 7]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.006] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 7]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.006] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 7]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.007] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 7]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.008] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.008] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.009] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.009] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.010] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.010] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.011] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.011] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.011] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.012] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -4, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.013] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.013] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.013] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.014] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.014] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.015] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -4, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.015] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.016] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.016] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.016] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.017] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.018] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -4, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.018] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.019] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.019] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.019] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.020] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.020] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 2, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.021] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -4, 13]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.021] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 13]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.022] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 13]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.022] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 13]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.022] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 13]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.023] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 13]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.023] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 2, 13]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.024] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -4, 14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.025] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.025] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.025] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.026] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.026] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.026] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 2, 14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.027] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -4, 15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.028] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.028] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.028] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.028] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.029] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.029] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 2, 15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.030] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -4, 16]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.030] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 16]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.031] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 16]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.031] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 16]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.032] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 16]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.032] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 16]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.033] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -4, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.033] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.033] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.034] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.034] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.034] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.042] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -4, 18]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.042] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 18]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.042] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 18]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.043] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 18]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.043] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 18]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.044] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 18]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.044] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -4, 19]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.045] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 19]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.045] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 19]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.046] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 19]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.046] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 19]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.047] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 19]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.048] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 20]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.048] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 20]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.049] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 20]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.049] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 20]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.050] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 20]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.051] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -3, 21]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.052] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -2, 21]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.052] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, -1, 21]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.053] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 0, 21]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.053] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [1, 1, 21]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.103] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -4, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.104] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -3, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.104] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -2, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.105] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -1, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.105] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 0, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.105] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 1, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.106] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -4, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.107] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -3, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.107] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -2, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.107] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -1, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.108] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 0, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.108] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 1, 11]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.109] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -4, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.109] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -3, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.109] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -2, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.110] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -1, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.110] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 0, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.110] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 1, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.110] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 2, 12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.111] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -4, 13]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.111] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -3, 13]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.112] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -2, 13]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.112] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -1, 13]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.112] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 0, 13]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.112] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 1, 13]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.113] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 2, 13]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.113] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -4, 14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.114] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -3, 14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.114] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -2, 14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.114] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -1, 14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.115] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 0, 14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.115] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 1, 14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.115] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 2, 14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.116] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -4, 15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.117] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -3, 15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.117] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -2, 15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.117] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -1, 15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.117] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 0, 15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.118] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 1, 15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.119] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -4, 16]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.119] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -3, 16]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.119] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -2, 16]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.120] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -1, 16]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.120] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 0, 16]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.120] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 1, 16]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.125] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -4, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.126] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -3, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.126] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -2, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.126] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -1, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.126] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 0, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.127] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 1, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.128] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -4, 18]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.128] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -3, 18]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.128] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -2, 18]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.129] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, -1, 18]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.129] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 0, 18]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:13.129] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [0, 1, 18]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: yungscavebiomes:lost_caves -> using default)
+[12Oct2024 10:03:14.094] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Oct2024 10:03:14.095] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Oct2024 10:03:14.096] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Oct2024 10:03:14.096] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Oct2024 10:03:14.097] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Oct2024 10:03:14.097] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Oct2024 10:03:14.098] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Oct2024 10:03:14.098] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Oct2024 10:03:14.325] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Oct2024 10:03:14.825] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[12Oct2024 10:03:15.261] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4936 ms
+[12Oct2024 10:03:15.261] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.008s)! For help, type "help"
+[12Oct2024 10:03:15.295] [Server thread/ERROR] [net.minecraftforge.server.permission.PermissionAPI/]: Unable to find configured permission handler luckperms:permission_handler, will use forge:default_handler
+[12Oct2024 10:03:15.295] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[12Oct2024 10:03:59.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[12Oct2024 10:03:59.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: --help<--[HERE]
+[12Oct2024 10:04:04.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /advancement (grant|revoke)
+[12Oct2024 10:04:04.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /attribute <target> <attribute> (get|base|modifier)
+[12Oct2024 10:04:04.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[12Oct2024 10:04:04.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bossbar (add|remove|list|set|get)
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clear [<targets>]
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clone (<begin>|from)
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /damage <target> <amount> [<damageType>]
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /data (merge|get|remove|modify)
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /datapack (enable|disable|list)
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /debug (start|stop|function)
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /defaultgamemode <gamemode>
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /difficulty [peaceful|easy|normal|hard]
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /effect (clear|give)
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /me <action>
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /enchant <targets> <enchantment> [<level>]
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /experience (add|set|query)
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /xp -> experience
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[12Oct2024 10:04:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fillbiome <from> <to> <biome> [replace]
+[12Oct2024 10:04:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forceload (add|remove|query)
+[12Oct2024 10:04:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /function <name>
+[12Oct2024 10:04:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode <gamemode> [<target>]
+[12Oct2024 10:04:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[12Oct2024 10:04:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /give <targets> <item> [<count>]
+[12Oct2024 10:04:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /help [<command>]
+[12Oct2024 10:04:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /item (replace|modify)
+[12Oct2024 10:04:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kick <targets> [<reason>]
+[12Oct2024 10:04:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kill [<targets>]
+[12Oct2024 10:04:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /list [uuids]
+[12Oct2024 10:04:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /locate (structure|biome|poi)
+[12Oct2024 10:04:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /loot (replace|insert|give|spawn)
+[12Oct2024 10:04:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /msg <targets> <message>
+[12Oct2024 10:04:04.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tell -> msg
+[12Oct2024 10:04:04.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /w -> msg
+[12Oct2024 10:04:04.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /particle <name> [<pos>]
+[12Oct2024 10:04:04.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /place (feature|jigsaw|structure|template)
+[12Oct2024 10:04:04.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[12Oct2024 10:04:04.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reload
+[12Oct2024 10:04:04.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /recipe (give|take)
+[12Oct2024 10:04:04.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /return <value>
+[12Oct2024 10:04:04.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ride <target> (mount|dismount)
+[12Oct2024 10:04:04.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /say <message>
+[12Oct2024 10:04:04.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /schedule (function|clear)
+[12Oct2024 10:04:04.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scoreboard (objectives|players)
+[12Oct2024 10:04:04.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /seed
+[12Oct2024 10:04:04.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setblock <pos> <block> [destroy|keep|replace]
+[12Oct2024 10:04:04.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spawnpoint [<targets>]
+[12Oct2024 10:04:04.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setworldspawn [<pos>]
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spectate [<target>]
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /summon <entity> [<pos>]
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tag <targets> (add|remove|list)
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /team (list|add|remove|empty|join|leave|modify)
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teammsg <message>
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tm -> teammsg
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teleport (<location>|<destination>|<targets>)
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tp -> teleport
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tellraw <targets> <message>
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /time (set|add|query)
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trigger <objective> [add|set]
+[12Oct2024 10:04:04.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /weather (clear|rain|thunder)
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /worldborder (add|set|center|damage|get|warning)
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jfr (start|stop)
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban-ip <target> [<reason>]
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /banlist [ips|players]
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban <targets> [<reason>]
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deop <targets>
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /op <targets>
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon <targets>
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon-ip <target>
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /perf (start|stop)
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-all [flush]
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-off
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-on
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setidletimeout <minutes>
+[12Oct2024 10:04:04.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stop
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whitelist (on|off|list|add|remove|reload)
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /curios (list|replace|set|add|remove|clear|drop|reset)
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jade (show|hide)
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /discord
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reloadembeds
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whois <username>
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reloadbot
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /hideplayer <username>
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /unhideplayer <username>
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /carryon (debug|clear|place)
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forge (tps|track|entity|generate|dimensions|mods|tags)
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /config showfile <mod> <type>
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /end_island reset [<forceNewPortalPos>]
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tt_reload
+[12Oct2024 10:04:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /dimensiontitle <dimension>
+[12Oct2024 10:04:04.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /biometitle <biome>
+[12Oct2024 10:04:16.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[12Oct2024 10:04:16.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ping<--[HERE]
+[12Oct2024 10:09:15.462] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[12Oct2024 10:09:15.515] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: shrenos[/43.224.129.116:55591] logged in with entity id 148 at (357.5523541272089, 115.6152562198196, 137.7120058347034)
+[12Oct2024 10:09:15.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shrenos joined the game
+[12Oct2024 10:09:15.712] [Server thread/INFO] [Jade/]: Syncing config to shrenos (bd23bd76-457c-3df8-8db0-86f4f9bad6db)
+[12Oct2024 10:10:24.376] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Drowned['Drowned'/1745, l='ServerLevel[world]', x=197.50, y=51.00, z=251.50]
+[12Oct2024 10:14:53.866] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'iceandfire:graveyard' in chunk [42, 14], discarding
+[12Oct2024 10:14:53.867] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'iceandfire:graveyard' in chunk [43, 14], discarding
+[12Oct2024 10:14:53.874] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'iceandfire:graveyard' in chunk [42, 15], discarding
+[12Oct2024 10:14:53.875] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'iceandfire:graveyard' in chunk [43, 15], discarding
+[12Oct2024 10:14:53.909] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'iceandfire:graveyard' in chunk [42, 16], discarding
+[12Oct2024 10:14:53.910] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'iceandfire:graveyard' in chunk [43, 16], discarding
+[12Oct2024 10:23:52.194] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'iceandfire:graveyard' in chunk [42, 17], discarding
+[12Oct2024 10:23:52.196] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'iceandfire:graveyard' in chunk [43, 17], discarding
+[12Oct2024 10:23:56.462] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id iceandfire:ghost_chest
+[12Oct2024 10:26:32.361] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shrenos lost connection: Disconnected
+[12Oct2024 10:26:32.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shrenos left the game
+[12Oct2024 10:42:42.816] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: shrenos[/43.224.129.116:37856] logged in with entity id 8425 at (791.6999999880791, 71.09177253308333, 169.69999998807907)
+[12Oct2024 10:42:42.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shrenos joined the game
+[12Oct2024 10:42:42.836] [Server thread/INFO] [Jade/]: Syncing config to shrenos (bd23bd76-457c-3df8-8db0-86f4f9bad6db)
+[12Oct2024 10:44:57.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shrenos has made the advancement [No Step on Snake]
+[12Oct2024 10:44:59.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shrenos has made the advancement [It's an Emu!!!]
+[12Oct2024 10:45:01.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shrenos has made the advancement [Rigged from the Start]
+[12Oct2024 10:46:24.411] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shrenos lost connection: Disconnected
+[12Oct2024 10:46:24.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shrenos left the game
+[12Oct2024 11:11:03.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[12Oct2024 11:11:03.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Oct2024 11:11:03.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Oct2024 11:11:03.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Oct2024 11:11:03.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12Oct2024 11:11:04.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12Oct2024 11:11:04.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12Oct2024 11:11:04.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12Oct2024 11:11:04.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Oct2024 11:11:04.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Oct2024 11:11:04.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
