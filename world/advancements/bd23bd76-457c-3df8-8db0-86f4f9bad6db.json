@@ -1,16 +1,4 @@
 {
-  "iceandfire:iceandfire/root": {
-    "criteria": {
-      "tick": "2024-10-11 13:19:08 +0000"
-    },
-    "done": true
-  },
-  "yungscavebiomes:root": {
-    "criteria": {
-      "always": "2024-10-11 13:19:08 +0000"
-    },
-    "done": true
-  },
   "betterdeserttemples:root": {
     "criteria": {
       "always": "2024-10-11 13:19:08 +0000"
