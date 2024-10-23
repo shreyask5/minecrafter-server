@@ -19,11 +19,17 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:wooded_badlands": "2024-10-23 15:03:35 +0000",
       "minecraft:badlands": "2024-10-11 13:19:37 +0000",
+      "minecraft:beach": "2024-10-23 15:12:12 +0000",
       "minecraft:river": "2024-10-12 10:24:08 +0000",
+      "minecraft:lukewarm_ocean": "2024-10-23 15:11:54 +0000",
       "minecraft:stony_shore": "2024-10-11 13:19:08 +0000",
+      "minecraft:forest": "2024-10-23 14:14:29 +0000",
       "minecraft:desert": "2024-10-11 13:19:31 +0000",
-      "minecraft:warm_ocean": "2024-10-12 10:10:11 +0000"
+      "minecraft:jungle": "2024-10-23 14:38:38 +0000",
+      "minecraft:warm_ocean": "2024-10-12 10:10:11 +0000",
+      "minecraft:savanna": "2024-10-23 15:18:41 +0000"
     },
     "done": false
   },
@@ -45,21 +51,65 @@
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/emu": {
-    "criteria": {
-      "killed_by": "2024-10-12 10:44:59 +0000"
-    },
-    "done": true
-  },
   "alexsmobs:alexsmobs/rattlesnake": {
     "criteria": {
       "killed_by": "2024-10-12 10:44:57 +0000"
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/emu": {
+    "criteria": {
+      "killed_by": "2024-10-12 10:44:59 +0000"
+    },
+    "done": true
+  },
   "alexsmobs:alexsmobs/tarantula_hawk": {
     "criteria": {
       "killed_by": "2024-10-12 10:45:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2024-10-23 14:20:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2024-10-23 14:29:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2024-10-23 14:37:27 +0000",
+      "apple": "2024-10-23 15:06:49 +0000",
+      "bread": "2024-10-23 14:57:20 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2024-10-23 14:49:15 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-10-23 14:57:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2024-10-23 14:49:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-10-23 15:19:35 +0000"
     },
     "done": true
   },
