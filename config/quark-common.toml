@@ -40,14 +40,14 @@
 
 [categories]
 	automation = true
-	building = true
+	building = false
 	management = true
-	tools = true
+	tools = false
 	tweaks = true
 	world = true
 	mobs = true
 	client = true
-	experimental = true
+	experimental = false
 	oddities = true
 
 [automation]
@@ -317,6 +317,9 @@
 		"Enable Lava Interaction" = true
 		"Allow Opening Shulker Boxes" = true
 		"Allow Rotating Bundles" = true
+
+	[management.hotbar_changer]
+		"Animation Time" = 7.0
 
 	[management.inventory_sorting]
 		"Enable Player Inventory" = true
@@ -763,21 +766,21 @@
 		"Smelt Raw Ore Blocks" = true
 
 [world]
-	"Ancient Wood" = true
+	"Ancient Wood" = false
 	"Azalea Wood" = true
 	"Big Stone Clusters" = true
 	"Blossom Trees" = true
-	"Chorus Vegetation" = true
-	Corundum = true
+	"Chorus Vegetation" = false
+	Corundum = false
 	"Fairy Rings" = true
-	"Fallen Logs" = true
-	"Glimmering Weald" = true
-	"Monster Box" = true
+	"Fallen Logs" = false
+	"Glimmering Weald" = false
+	"Monster Box" = false
 	"Nether Obsidian Spikes" = true
-	"New Stone Types" = true
-	"No More Lava Pockets" = true
-	Permafrost = true
-	"Spiral Spires" = true
+	"New Stone Types" = false
+	"No More Lava Pockets" = false
+	Permafrost = false
+	"Spiral Spires" = false
 
 	[world.ancient_wood]
 		"Ancient Fruit Gives Exp" = true
