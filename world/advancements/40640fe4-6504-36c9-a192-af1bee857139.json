@@ -83,11 +83,17 @@
     },
     "done": true
   },
-  "betterdungeons:all_dungeons": {
+  "minecraft:story/root": {
     "criteria": {
-      "in_better_spider_dungeon": "2024-10-23 15:23:55 +0000"
+      "crafting_table": "2024-10-23 14:06:09 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2024-10-23 14:08:25 +0000"
+    },
+    "done": true
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
@@ -99,15 +105,9 @@
     },
     "done": false
   },
-  "betterdeserttemples:temple_entry": {
+  "alexsmobs:alexsmobs/seagull_steal": {
     "criteria": {
-      "in_better_desert_temple": "2024-10-23 15:27:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2024-10-23 14:08:25 +0000"
+      "ex": "2024-10-23 14:23:49 +0000"
     },
     "done": true
   },
@@ -117,9 +117,9 @@
     },
     "done": true
   },
-  "minecraft:story/lava_bucket": {
+  "minecraft:story/upgrade_tools": {
     "criteria": {
-      "lava_bucket": "2024-10-23 14:45:54 +0000"
+      "stone_pickaxe": "2024-10-23 14:33:02 +0000"
     },
     "done": true
   },
@@ -130,21 +130,15 @@
     },
     "done": false
   },
-  "minecraft:story/mine_diamond": {
+  "minecraft:adventure/kill_a_mob": {
     "criteria": {
-      "diamond": "2024-10-23 14:56:02 +0000"
+      "minecraft:zombie": "2024-10-23 14:42:39 +0000"
     },
     "done": true
   },
-  "minecraft:story/upgrade_tools": {
+  "minecraft:story/lava_bucket": {
     "criteria": {
-      "stone_pickaxe": "2024-10-23 14:33:02 +0000"
-    },
-    "done": true
-  },
-  "betterdungeons:spider_dungeon": {
-    "criteria": {
-      "in_better_spider_dungeon": "2024-10-23 15:23:55 +0000"
+      "lava_bucket": "2024-10-23 14:45:54 +0000"
     },
     "done": true
   },
@@ -154,21 +148,46 @@
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "minecraft:story/mine_diamond": {
     "criteria": {
-      "crafting_table": "2024-10-23 14:06:09 +0000"
+      "diamond": "2024-10-23 14:56:02 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
+  "betterdungeons:all_dungeons": {
     "criteria": {
-      "minecraft:zombie": "2024-10-23 14:42:39 +0000"
+      "in_better_zombie_dungeon": "2024-10-27 14:41:53 +0000",
+      "in_better_spider_dungeon": "2024-10-23 15:23:55 +0000"
+    },
+    "done": false
+  },
+  "betterdungeons:spider_dungeon": {
+    "criteria": {
+      "in_better_spider_dungeon": "2024-10-23 15:23:55 +0000"
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/seagull_steal": {
+  "betterdeserttemples:temple_entry": {
     "criteria": {
-      "ex": "2024-10-23 14:23:49 +0000"
+      "in_better_desert_temple": "2024-10-23 15:27:35 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:zombie_dungeon": {
+    "criteria": {
+      "in_better_zombie_dungeon": "2024-10-27 14:41:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-10-27 14:47:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2024-10-27 14:46:30 +0000"
     },
     "done": true
   },
